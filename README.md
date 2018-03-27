@@ -1,4 +1,7 @@
-# linen-syntax
-A dark, restrained palette with low saturation and contrast. Designed for writing in Markdown, but suitable for other tasks.
+# Linen Syntax Theme
+
+A dark, restrained palette with low color saturation and contrast. 
+
+Designed for writing Markdown in Atom, but suitable for other tasks.
 
 ![](linen_screenshot.png)
