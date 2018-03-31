@@ -120,7 +120,7 @@ atom-text-editor {
 }
 
 .syntax--string {
-  color: @green;
+  color: @purple-gray;
 
 
   &.syntax--regexp {
@@ -146,7 +146,7 @@ atom-text-editor {
     &.syntax--variable,
     &.syntax--parameters,
     &.syntax--array {
-      color: @syntax-text-color;
+      color: darken(@syntax-text-color, 30%);
     }
 
     &.syntax--heading,
@@ -155,7 +155,7 @@ atom-text-editor {
     }
 
     &.syntax--bold {
-      color: @light-orange;
+      color: @dark-gray;
       font-weight: bold;
     }
 
@@ -190,7 +190,7 @@ atom-text-editor {
     color: @blue;
   }
   &.syntax--name.syntax--type {
-    color: @light-orange;
+    color: lighten(@purple, 10%);
     text-decoration: underline;
   }
 
@@ -198,7 +198,7 @@ atom-text-editor {
     color: @green;
   }
   &.syntax--name.syntax--class, &.syntax--name.syntax--type.syntax--class {
-    color: @light-orange;
+    color: @red;
   }
 
   &.syntax--name.syntax--section {
@@ -206,15 +206,15 @@ atom-text-editor {
   }
 
   &.syntax--name.syntax--tag {
-    color: @red;
+    color: lighten(@purple-gray, 10%);
     text-decoration: underline;
   }
 
   &.syntax--other.syntax--attribute-name {
-    color: @orange;
+    color: @dark-gray;
 
     &.syntax--id {
-      color: @blue;
+      color: @red;
     }
   }
 }
@@ -302,40 +302,71 @@ atom-text-editor[mini] .scroll-view {
 
 
 // Markdown 
-.syntax--md .syntax--bold {
+.syntax--md {
+  &.syntax--bold {
   color: @gray;
+  }
+  &.syntax--italic {
+    color: @gray;
+  }
+  &.syntax--heading {
+    color: lighten(@cyan, 15%);
+  }
+  &.syntax--quote {
+    color: @gold;
+  }
+  &.syntax--comment {
+    color: @purple-gray;
+  }
+  &.syntax--ordered {
+    color: @gold;
+  }
+  &.syntax--unordered {
+    color: @gold;
+  }
+  &.syntax--punctuation {
+    color: @cyan;
+  }
+  &.syntax--reference {
+    color: @light-cyan;
+  } 
 }
-.syntax--md .syntax--italic {
-  color: @gray;
-}
-.syntax--md .syntax--heading {
-  color: lighten(@cyan, 15%);
-}
-.syntax--md .syntax--quote {
-  color: @gold;
-}
-.syntax--md .syntax--comment {
-  color: @purple-gray;
-}
-.syntax--md .syntax--ordered {
-  color: @gold;
-}
-.syntax--md .syntax--unordered {
-  color: @gold;
-}
-.syntax--md .syntax--punctuation {
-  color: @cyan;
-}
-.syntax--md .syntax--reference {
-  color: @light-cyan;
-} 
 
 // YAML Syntax
+.syntax--yaml {
+  &.syntax--string {
+  color: @purple-gray;
+  }
+  &.syntax--punctuation {
+  color: @gray;
+  }
+}
 
-.syntax--yaml .syntax--string {
-  color: @purple;
+// HTML Syntax
+.syntax--html {
+  &.syntax--punctuation {
+    color: @dark-gray;
+  }
+  &.syntax--tag {
+    color: @dark-gray;
+  }
+  &.syntax--class {
+    color: @light-gray;
+  }
 }
-.synatx--yml .syntax--punctuation {
-  colore: @gray
-}
+
+// CSS Syntax
+
+// .syntax--css .syntax--meta {
+//   color: @gray;
+// }
+
+// MISC Syntax
+
+// .syntax--punctuation .syntax--definition .syntax--variable .syntax--less {
+//   color: @indigo;
+// }
+
+
+
 
