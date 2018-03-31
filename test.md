@@ -15,7 +15,7 @@ date: January 18, 2018
 
 Daniel Ellsberg in his youth and Daniel Ellsberg in his age are the same man—a born worrier quick to spot trouble, take alarm, and _issue warning_. He is best known for **worrying** about the American war in Vietnam, which time in the war zone convinced him was a crime, and for doing what he could to bring it to an end.^[footnote]
 
-[footnote]: This is a footnote  
+[footnote]: This is a footnote.
 
 In that case he copied and illegally released a huge collection of secret documents about the war, first published in June 1971 by The New York Times, which came to be known as the Pentagon Papers.  
 

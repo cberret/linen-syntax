@@ -55,7 +55,7 @@ atom-text-editor {
 // Syntax styles
 
 .syntax--comment {
-  color: @light-gray;
+  color: @very-dark-gray;
 }
 
 .syntax--keyword {
@@ -74,7 +74,7 @@ atom-text-editor {
   }
 
   &.syntax--other.syntax--unit {
-    color: darken(@gold, 10%);
+    color: darken(@light-cyan, 15%);
   }
 }
 
@@ -83,14 +83,14 @@ atom-text-editor {
 }
 
 .syntax--constant {
-  color: @light-cyan;
+  color: darken(@blue-gray, 30%);
 
   &.syntax--character.syntax--escape {
     color: @cyan;
   }
 
   &.syntax--numeric {
-    color: @gold;
+    color: darken(@light-cyan, 10%);
   }
 
   &.syntax--other.syntax--color {
@@ -139,21 +139,20 @@ atom-text-editor {
 .syntax--punctuation {
   &.syntax--definition {
     &.syntax--comment {
-      color: @light-gray;
+      color: darken(@gray, 20%);
     }
-
+    &.syntax--variable {
+      color: lighten(@red, 20%);
+    }
     &.syntax--string,
-    &.syntax--variable,
     &.syntax--parameters,
     &.syntax--array {
-      color: darken(@syntax-text-color, 30%);
+      color: @light-gray;
     }
-
     &.syntax--heading,
     &.syntax--identity {
       color: @blue;
     }
-
     &.syntax--bold {
       color: @dark-gray;
       font-weight: bold;
@@ -325,11 +324,14 @@ atom-text-editor[mini] .scroll-view {
     color: @gold;
   }
   &.syntax--punctuation {
-    color: @cyan;
+    color: darken(@gray, 10%);
   }
   &.syntax--reference {
     color: @light-cyan;
   } 
+  &.syntax--uri.syntax--underline.syntax--link {
+    color: @syntax-text-color;
+  }
 }
 
 // YAML Syntax
@@ -356,6 +358,16 @@ atom-text-editor[mini] .scroll-view {
 }
 
 // CSS Syntax
+.syntax--css {
+  &.syntax--type{
+    color: @purple;
+  }
+  &.syntax--punctuation{
+    color: lighten(@purple, 20%);
+  }
+}
+
+
 
 // .syntax--css .syntax--meta {
 //   color: @gray;
