@@ -2,7 +2,7 @@
 
 A dark, restrained palette with low color saturation and contrast. 
 
-Designed for writing Markdown in Atom, but suitable for other tasks.
+Designed for writing in Markdown or editing webpages by hand. The focus is on the text.
 
 Pairs well with the Atom Material UI theme.
 
