@@ -39,7 +39,7 @@ atom-text-editor {
   }
 
   .invisible {
-    color: @syntax-text-color;
+    color: lighten(@syntax-text-color, 10%);
   }
 
   .cursor {
@@ -74,7 +74,7 @@ atom-text-editor {
   }
 
   &.syntax--other.syntax--unit {
-    color: @orange;
+    color: lighten(@gold, 15%);
   }
 }
 
@@ -83,14 +83,14 @@ atom-text-editor {
 }
 
 .syntax--constant {
-  color: @orange;
+  color: @gold;
 
   &.syntax--character.syntax--escape {
     color: @cyan;
   }
 
   &.syntax--numeric {
-    color: @orange;
+    color: @gold;
   }
 
   &.syntax--other.syntax--color {
@@ -127,7 +127,7 @@ atom-text-editor {
     color: @cyan;
 
     .syntax--source.syntax--ruby.syntax--embedded {
-      color: @orange;
+      color: @gold;
     }
   }
 
@@ -155,7 +155,7 @@ atom-text-editor {
     }
 
     &.syntax--bold {
-      color: @light-orange;
+      color: @light-gold;
       font-weight: bold;
     }
 
@@ -173,7 +173,7 @@ atom-text-editor {
 
 .syntax--support {
   &.syntax--class {
-    color: @light-orange;
+    color: @light-gold;
   }
 
   &.syntax--function  {
@@ -190,7 +190,7 @@ atom-text-editor {
     color: @blue;
   }
   &.syntax--name.syntax--type {
-    color: @light-orange;
+    color: @light-gold;
     text-decoration: underline;
   }
 
@@ -198,7 +198,7 @@ atom-text-editor {
     color: @green;
   }
   &.syntax--name.syntax--class, &.syntax--name.syntax--type.syntax--class {
-    color: @light-orange;
+    color: @light-gold;
   }
 
   &.syntax--name.syntax--section {
@@ -211,7 +211,7 @@ atom-text-editor {
   }
 
   &.syntax--other.syntax--attribute-name {
-    color: @orange;
+    color: @gold;
 
     &.syntax--id {
       color: @blue;
@@ -221,11 +221,11 @@ atom-text-editor {
 
 .syntax--meta {
   &.syntax--class {
-    color: @light-orange;
+    color: @light-gold;
   }
 
   &.syntax--link {
-    color: @orange;
+    color: @gold;
   }
 
   &.syntax--require {
@@ -248,7 +248,7 @@ atom-text-editor {
 
 .syntax--markup {
   &.syntax--bold {
-    color: @orange;
+    color: @gold;
     font-weight: bold;
   }
 
@@ -278,7 +278,7 @@ atom-text-editor {
   }
 
   &.syntax--quote {
-    color: @orange;
+    color: @gold;
   }
 
   &.syntax--raw.syntax--inline {
