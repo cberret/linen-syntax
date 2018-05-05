@@ -29,3 +29,8 @@ When Ellsberg finally got a look at the plans for such a war he realized immedia
 
 1. It was Vietnam that got in the way of his plan to do something about the nuclear war plans. In his new memoir, _The Doomsday Machine: Confessions of a Nuclear War Planner_, the second about the big things that obsessed Ellsberg in his youth, he does not try to explain why he set aside worry about the bomb to tackle America’s hopeless war in Southeast Asia, then in its sixth year. 
 2. The probable answer is that he had gone to see it. Arguing about nuclear weapons with other supersmart young analysts and Air Force colonels was dismaying but not horrifying in the way of war itself. In Vietnam hundreds of Americans and thousands of Vietnamese were dying every month, and sometimes every week, with no end in sight. The commitment of American policymakers to go on killing peasants rather than confess failure was the crime that Ellsberg felt impelled to expose and denounce.
+
+---------------------------------
+
+
+
